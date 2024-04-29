@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "secs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "secs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "secs[2]",
+					"strict" : false
+				},
+				{
+					"name" : "secs[3]",
+					"strict" : false
+				},
+				{
+					"name" : "secs[4]",
+					"strict" : false
+				},
+				{
+					"name" : "secs[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mins[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mins[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mins[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mins[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mins[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mins[5]",
+					"strict" : false
+				},
+				{
+					"name" : "secs_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "secs_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "secs_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "secs_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "secs_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "secs_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mins_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mins_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mins_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mins_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mins_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mins_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "finish",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "start_stop",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

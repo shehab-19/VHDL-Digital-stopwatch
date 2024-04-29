@@ -1,0 +1,33 @@
+use ieee;
+library ieee.std_logic_1164.all;
+
+entity SW is
+port(secs, mins: buffer integer range 0 to 59:=30;
+	  --secsout, minsout: out integer range 0 to 59;
+	  clk, start_stop: in std_logic;
+	  finish: out std_logic);
+end SW;
+
+architecture op of SW is
+begin
+process(clk,secs,mins)
+	begin
+	if (clk'event and clk='1') then
+		if (start_stop='0') then
+			secs<= 0;
+			mins<= 0;
+			finish<='0';
+		else
+			secs<= secs-1;
+			if (secs=0) then
+				mins<=mins-1;
+				secs<=59;
+				if (mins=0) then
+					secs<=0;
+					finish<='1';
+				end if;
+			end if;
+		end if;
+	end if;
+end process;
+end op;
